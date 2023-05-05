@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px){
+    html,body{
+        background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%, #301657 66.67%, #121056 83.33%, #000d56 100%);
+    }
+    section{
+        width: 80vw;
+        height: 330px;
+        transition: width .3s, height .3s;      
+    }
+    section > div#imagem{
+        background-position: center center;
+        float: left;
+        width: 30%;
+        height: 100vh;
+    }
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+    div#formulario > h1{
+        text-align: center;
+        font-size: 1.7em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    html,body{
+        background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%, #301657 66.67%, #121056 83.33%, #000d56 100%);
+    }
+    section{
+        width: 900px;
+        height: 330px;
+        transition: width .3s, height .3s;      
+    }
+    section > div#imagem{
+        background-position: center center;
+        float: left;
+        width: 40%;
+        height: 100vh;
+    }
+    div#formulario{
+        float: right;
+        width: 60%;
+    }
+    div#formulario > h1{
+        text-align: center;
+        font-size: 2.0em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    html,body{
+        background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%, #301657 66.67%, #121056 83.33%, #000d56 100%);
+    }
+    section{
+        width: 900px;
+        height: 330px;
+        transition: width .2s, height .2s;
+        transition-timing-function: ease;      
+    }
+    section > div#imagem{
+        background-position: center center;
+        float: right;
+        width: 40%;
+        height: 100vh;
+    }
+    div#formulario{
+        float: left;
+        width: 60%;
+    }
+    div#formulario > h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2.0em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+}
